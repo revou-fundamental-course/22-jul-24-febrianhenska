@@ -8,50 +8,329 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <!-- header -->
+    <!-- Header Start -->
     <nav>
-      <header><div class="logo-icon">tittle</div></header>
+      <header>
+        <div class="logo-icon">
+          <svg
+            width="100"
+            viewBox="0 0 169 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M10.0148 2.5V40H0V2.5H10.0148Z"
+              fill="#283841"
+            ></path>
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M15.0222 2.5H36.3037C43.2175 2.5 48.8222 8.09644 48.8222 15C48.8222 21.9036 43.2175 27.5 36.3037 27.5H25.037V40H15.0222V2.5ZM25.037 17.5H36.3037C37.6865 17.5 38.8074 16.3807 38.8074 15C38.8074 13.6193 37.6865 12.5 36.3037 12.5H25.037V17.5Z"
+              fill="#283841"
+            ></path>
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M86.3778 2.5V21.875C86.3778 26.3623 90.0208 30 94.5148 30C99.0088 30 102.652 26.3623 102.652 21.875V2.5H112.667V21.875C112.667 31.8852 104.54 40 94.5148 40C84.4898 40 76.363 31.8852 76.363 21.875V2.5H86.3778Z"
+              fill="#283841"
+            ></path>
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M52.5778 20C52.5778 10.335 60.4244 2.5 70.1037 2.5H72.6074V12.5H70.1037C65.9554 12.5 62.5926 15.8579 62.5926 20V21.25C62.5926 31.6053 54.1855 40 43.8148 40H42.563V30H43.8148C48.6545 30 52.5778 26.0825 52.5778 21.25V20Z"
+              fill="#283841"
+            ></path>
+            <path
+              d="M169 3.75C169 5.82107 167.319 7.5 165.244 7.5C163.17 7.5 161.489 5.82107 161.489 3.75C161.489 1.67893 163.17 0 165.244 0C167.319 0 169 1.67893 169 3.75Z"
+              fill="#283841"
+            ></path>
+            <path
+              d="M123.42 40L128.199 20.0181L131.752 32.0393C133.87 39.2091 144.041 39.2091 146.16 32.0393L149.712 20.0181L154.491 40H164.787L157.273 8.57949C155.486 1.10744 144.941 0.830781 142.763 8.19891L138.956 21.0833L135.148 8.19892C132.971 0.830824 122.425 1.1074 120.638 8.57948L113.124 40H123.42Z"
+              fill="#283841"
+            ></path>
+          </svg>
+        </div>
+      </header>
       <section class="nav-container">
         <a href="nav-items">Home</a>
+        <a href="nav-items">Our Benefits</a>
         <a href="nav-items">Our Packages</a>
-        <a href="nav-items">Call Us</a>
+        <a href="nav-items">Contact Us</a>
       </section>
     </nav>
-    <!-- content -->
+    <!-- Header End -->
+    <!-- Content Start-->
     <main class="main-section">
       <article class="main-tittle">
         <header>
           <h1>Your Trusted Travel Agent</h1>
         </header>
         <p>Your Happiness is Our Happiness</p>
+        <button class="main-tittle-btn">Get Started</button>
       </article>
       <section class="main-content">
         <article>
-          <div class="main-content-banner">Judul Form</div>
+          <div class="main-content-banner">
+            <h1>Study <span style="color: #e49b0f">with Us</span></h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Excepturi perspiciatis atque numquam.
+            </p>
+            <div class="slideshow-container">
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="assets/content1.jpg" style="width: 700px" />
+                <div class="text">Caption Text</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="assets/content2.jpg" style="width: 700px" />
+                <div class="text">Caption Two</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="assets/content3.jpg" style="width: 700px" />
+                <div class="text">Caption Three</div>
+              </div>
+            </div>
+            <br />
+
+            <div style="text-align: center">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+            <div class="main-content-review">
+              <p style="font-style: italic">
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Laudantium, deleniti!"
+              </p>
+              <div class="review-container">
+                <img src="assets/revou.png" alt="" class="review-img" />
+                <div class="review-text">
+                  <h2>RevoU Community</h2>
+                  <p>A platform learning from Indonesia</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </article>
         <form action="" class="main-form">
-          <label for="name">Name</label>
-          <input type="text" name="name" id="name" placeholder="Your Name" />
-          <label for="email">Email</label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Your Email"
-          />
-          <label for="message">Message</label>
-          <textarea
-            name="message"
-            id="message"
-            cols="30"
-            rows="10"
-            placeholder="Your Message"
-          ></textarea>
-          <input type="submit" value="Submit" class="main-form-btn" />
+          <div class="main-form-header">
+            <h1>Get Started</h1>
+            <p>
+              Fill out the form below and we will get back to you within 24
+              hours
+            </p>
+          </div>
+
+          <div class="form-input">
+            <label for="name">Name <span style="color: red">*</span></label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Your Name"
+              required
+            />
+            <label for="email">Email <span style="color: red">*</span></label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email"
+              required
+            />
+          </div>
+          <div class="select-box">
+            <label for="select"
+              >Bidang yang kamu pilih? <span style="color: red">*</span></label
+            >
+            <select name="select" id="">
+              <option value="" hidden>Select</option>
+              <option value="">Web Development</option>
+              <option value="">UI/UX</option>
+              <option value="">Data Analyst</option>
+              <option value="">Design</option>
+              <option value="">Marketing</option>
+            </select>
+          </div>
+          <div class="button">
+            <input
+              type="submit"
+              id="button"
+              value="Submit"
+              class="main-form-btn"
+            />
+          </div>
         </form>
+      </section>
+      <section class="main-benefits">
+        <article class="benefits-container">
+          <div class="main-benefits-text">
+            <h1>Our <span style="color: #e49b0f">Benefits</span></h1>
+            <p style="text-align: center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              quidem, officia modi tempora doloremque error.
+            </p>
+          </div>
+          <div class="list-benefits">
+            <div class="list-benefits-item">
+              <img src="assets/star.png" alt="" width="30" />
+              <p>Enhancement of Specific Skills</p>
+            </div>
+            <div class="list-benefits-item">
+              <img src="assets/star.png" alt="" width="30" />
+              <p>Structured Learning</p>
+            </div>
+            <div class="list-benefits-item">
+              <img src="assets/star.png" alt="" width="30" />
+              <p>Access to Materials Anytime</p>
+            </div>
+            <div class="list-benefits-item">
+              <img src="assets/star.png" alt="" width="30" />
+              <p>Experienced Instructors</p>
+            </div>
+            <div class="list-benefits-item">
+              <img src="assets/star.png" alt="" width="30" />
+              <p>Official Certification</p>
+            </div>
+            <div class="list-benefits-item">
+              <img src="assets/star.png" alt="" width="30" />
+              <p>Active Learning Community</p>
+            </div>
+            <div class="list-benefits-item">
+              <img src="assets/star.png" alt="" width="30" />
+              <p>Up-to-date Materials</p>
+            </div>
+            <div class="list-benefits-item">
+              <img src="assets/star.png" alt="" width="30" />
+              <p>Practical Exercises and Projects</p>
+            </div>
+            <div class="list-benefits-item">
+              <img src="assets/star.png" alt="" width="30" />
+              <p>Personal Learning Support</p>
+            </div>
+          </div>
+          <div class="benefits-btn">
+            <button class="benefits-btn-text">Learn More</button>
+          </div>
+        </article>
+        <div>
+          <img src="assets/benefits.jpg" alt="" width="500" />
+        </div>
+      </section>
+      <section class="main-package">
+        <div class="main-package-text">
+          <h1>Our <span style="color: #e49b0f">Packages</span></h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt,
+            sapiente.
+          </p>
+        </div>
+        <div class="packages-list">
+          <div class="packages-item">
+            <img src="assets/free.png" alt="" width="100" />
+            <h2>Free</h2>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p class="price">Rp0</p>
+            <div class="packages-btn">
+              <button class="buy">Buy</button>
+              <button class="details">Details</button>
+            </div>
+          </div>
+          <div class="packages-item">
+            <img src="assets/intermediate.png" alt="" width="100" />
+            <h2>Intermediate</h2>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p class="price">Rp500.000,00</p>
+            <div class="packages-btn">
+              <button class="buy">Buy</button>
+              <button class="details">Details</button>
+            </div>
+          </div>
+          <div class="packages-item">
+            <img src="assets/expert.png" alt="" width="100" />
+            <h2>Expert</h2>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p class="price">Rp750.000,00</p>
+            <div class="packages-btn">
+              <button class="buy">Buy</button>
+              <button class="details">Details</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact-us">
+        <div>
+          <h1>Contact <span style="color: #e49b0f">Us</span></h1>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="contact-us-layout-btn">
+          <button class="contact-us-btn">Contact Us</button>
+        </div>
       </section>
     </main>
     <!-- footer -->
-    <footer></footer>
+    <footer>
+      <div class="footer">
+        <svg
+          width="100"
+          viewBox="0 0 169 40"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          style="margin-top: 1rem"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M10.0148 2.5V40H0V2.5H10.0148Z"
+            fill="#283841"
+          ></path>
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M15.0222 2.5H36.3037C43.2175 2.5 48.8222 8.09644 48.8222 15C48.8222 21.9036 43.2175 27.5 36.3037 27.5H25.037V40H15.0222V2.5ZM25.037 17.5H36.3037C37.6865 17.5 38.8074 16.3807 38.8074 15C38.8074 13.6193 37.6865 12.5 36.3037 12.5H25.037V17.5Z"
+            fill="#283841"
+          ></path>
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M86.3778 2.5V21.875C86.3778 26.3623 90.0208 30 94.5148 30C99.0088 30 102.652 26.3623 102.652 21.875V2.5H112.667V21.875C112.667 31.8852 104.54 40 94.5148 40C84.4898 40 76.363 31.8852 76.363 21.875V2.5H86.3778Z"
+            fill="#283841"
+          ></path>
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M52.5778 20C52.5778 10.335 60.4244 2.5 70.1037 2.5H72.6074V12.5H70.1037C65.9554 12.5 62.5926 15.8579 62.5926 20V21.25C62.5926 31.6053 54.1855 40 43.8148 40H42.563V30H43.8148C48.6545 30 52.5778 26.0825 52.5778 21.25V20Z"
+            fill="#283841"
+          ></path>
+          <path
+            d="M169 3.75C169 5.82107 167.319 7.5 165.244 7.5C163.17 7.5 161.489 5.82107 161.489 3.75C161.489 1.67893 163.17 0 165.244 0C167.319 0 169 1.67893 169 3.75Z"
+            fill="#283841"
+          ></path>
+          <path
+            d="M123.42 40L128.199 20.0181L131.752 32.0393C133.87 39.2091 144.041 39.2091 146.16 32.0393L149.712 20.0181L154.491 40H164.787L157.273 8.57949C155.486 1.10744 144.941 0.830781 142.763 8.19891L138.956 21.0833L135.148 8.19892C132.971 0.830824 122.425 1.1074 120.638 8.57948L113.124 40H123.42Z"
+            fill="#283841"
+          ></path>
+        </svg>
+        <p style="color: #283841">Henska Learning</p>
+        <div class="footer-link">
+          <a href="">Home</a>
+          <a href="">Our Benefits</a>
+          <a href="">Our Packages</a>
+          <a href="">Contact Us</a>
+        </div>
+        <p class="copyright">
+          Copyright &copy; 2024 Henska Learning. All Rights Reserved
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
