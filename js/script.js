@@ -1,10 +1,12 @@
+// Alert Submitting Form
 document.getElementById("button").onclick = function () {
-  alert("Thank you for your message!");
+  alert("Thank you! Your form has been successfully submitted.");
 };
 
 let slideIndex = 0;
 showSlides();
 
+// Autoslide
 function showSlides() {
   let i;
   let slides = document.getElementsByClassName("mySlides");
